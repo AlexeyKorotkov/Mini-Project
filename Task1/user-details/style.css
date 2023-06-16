@@ -1,0 +1,91 @@
+body{
+    font-family: "Trebuchet MS", serif;
+    background: #dedfe8;
+}
+
+h1 {
+    font-size: 45px;
+    text-align: center;
+
+    margin: 0;
+}
+.userInfo{
+    background: silver;
+
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 10px;
+    padding: 5px;
+}
+.textPart {
+    display: flex;
+    flex-direction: column;
+}
+
+.textInfo{
+    background: whitesmoke;
+
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mainButton {
+    font-size: 30px;
+
+    height: 50px;
+    width: 90%;
+}
+
+.postsTitle {
+    display: none;
+    justify-content: center;
+}
+
+.show{
+    display: flex;
+}
+
+.titleCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    background: silver;
+
+    width: 80%;
+
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background: lightyellow;
+
+    text-align: center;
+
+    width: 15%;
+
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+}
+.titButton {
+    margin: 5px;
+}

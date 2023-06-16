@@ -1,0 +1,62 @@
+body{
+    font-family: "Trebuchet MS", serif;
+    background: #dedfe8;
+}
+
+h1 {
+    font-size: 45px;
+    text-align: center;
+
+    margin: 0;
+}
+.postInfo {
+    display: flex;
+    justify-content: center;
+
+    background: silver;
+
+    border-radius: 10px;
+
+    margin-bottom: 20px;
+}
+
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+
+    width: 98%;
+    height: 98%;
+
+}
+
+.divPost{
+    background: wheat;
+
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 4px;
+    padding: 5px;
+}
+
+.comments{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    width: 100%;
+    height: 100%;
+
+    background: silver;
+    border-radius: 10px;
+
+}
+.comment {
+    background: whitesmoke;
+    width: 20%;
+
+
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+}

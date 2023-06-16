@@ -1,0 +1,43 @@
+body{
+    font-family: "Trebuchet MS", serif;
+    background: #dedfe8;
+}
+
+h1 {
+    font-size: 45px;
+    text-align: center;
+
+    margin: 0;
+}
+.usersBlock {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    background: silver;
+
+    border-radius: 10px;
+}
+
+.userDiv {
+    height: 100px;
+    width: 45%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px;
+
+    background: lightyellow;
+
+    font-size: 30px;
+}
+
+.firstPageButton{
+    width: 50%;
+    height: 40%;
+}
